@@ -392,7 +392,7 @@ function renderWizardStep() {
   else nextBtn.textContent = 'Next →';
 }
 
-/* Simulate AI classification */
+/* Hard coded Database */
 function runAiClassification() {
   const desc = (document.getElementById('w-description')?.value || '').toLowerCase();
 
